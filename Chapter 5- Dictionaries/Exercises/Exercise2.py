@@ -21,18 +21,13 @@ glossary={
     'comment': 'A not in a python that the python interpreter ignores',
     'loop':'Work through a collection of items, one at a time',
     }
-
 word='list'
 print(f"\n{word.title()}:{glossary[word]}")
-
 word='variable'
 print(f"\n{word.title()}:{glossary[word]}")
-
 word='dictionary'
 print(f"\n{word.title()}:{glossary[word]}")
-
 word='comment'
 print(f"\n{word.title()}:{glossary[word]}")
-
 word='loop'
 print(f"\n{word.title()}:{glossary[word]}")

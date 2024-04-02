@@ -12,7 +12,6 @@ def describe_city(city, country='pakistan'):
     "Describe a city."
     msg=(f"{city.title()} is in {country.title()}.")
     print(msg)
-    
 describe_city('Madina Pak' ,'Saudi Arabia')
 describe_city('Makkah Pak', 'Saudi Arabia')
 describe_city('Reykjavik','Iceland')

@@ -16,35 +16,27 @@
 #•	 Use sort() to change your list so it’s stored in reverse alphabetical order.
 #Print the list to show that its order has changed.
 
-locations= ['Madina Pak','Makkah Pak','Baghdad','Najaf','Karbala']
-
+locations= ['Madina Pak','Makkah Pak','Baghdad',
+    'Najaf','Karbala']
 print("Orignal order:")
 print(locations)
-
 print("\nAlphabetical:")
 print(sorted(locations))
-
 print("\nOrginal order:")
 print(locations)
-
 print("\nReverse alphabetical:")
 print(sorted(locations,reverse=True))
-
 print("\nOrignal order:")
 print(locations)
-
 print("\nReverse:")
 locations.reverse()
 print(locations)
-
 print("\nOrignal order:")
 locations.reverse()
 print(locations)
-
 print("\nAlphabetical")
 locations.sort()
 print(locations)
-
 print("\nReverse alphabetical")
 locations.sort(reverse=True)
 print(locations)

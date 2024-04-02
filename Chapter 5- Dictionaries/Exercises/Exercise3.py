@@ -10,7 +10,6 @@
 
 
 glossary ={
-
 'Conditional test':'A comparsion between two values',
 'ket':'A First item in a key_value pair in a distionary',
 'Bloan expersion':'An expression that evaluates to true or false',
@@ -21,6 +20,5 @@ glossary ={
 'Value':'An item associated with a key in a distionary',
 'Float':'A numerical value with a decimal component',
 'comment':'A not in a python that the python interpreter ignores',}
-
 for word, definition in glossary.items():
     print(f"\n{word.title()}: {definition}")

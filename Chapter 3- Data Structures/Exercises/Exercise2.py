@@ -7,13 +7,9 @@
 
 names=['Ilm ud deen','Mumtaz','Amir','Tanveer']
 
-msg=(f" hI, {names[0].title()}!")
-print(msg)
 
-msg=(f" hI, {names[1].title()}!")
-print(msg)
+print("Hi {}".format(names[0]))
+print("Hi {}".format(names[1]))
+print("Hi {}".format(names[2]))
+print("Hi {}".format(names[3]))
 
-msg=(f" hI, {names[2].titlse()}!")
-print(msg)
-msg=(f" hI, {names[3].title()}!")
-print(msg)

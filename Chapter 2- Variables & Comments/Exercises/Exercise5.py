@@ -6,7 +6,8 @@
 #You will to use the arithmetic operators to complete this exercise.
 
 
-print('Enter the amount available=')# asks the user for the amount available
+print('Enter the amount available=')# asks the user for the amount 
+#available
 amount =float(input())
 
 amount_of_USB=6 #price of a single USB stick
@@ -15,5 +16,6 @@ print('A single USB stick costs'+ str(amount_of_USB)+'dollars.')
 USBs_bought=amount// amount_of_USB #calculations
 balance=amount%amount_of_USB
 
-print('You have'+str(amount)+'dollars and you can buy'+str(USBs_bought)+'sticks')
+print('You have'+str(amount)+'dollars and you can buy'+str(USBs_bought)+
+      'sticks')
 print('Balance='+str(balance))

@@ -8,6 +8,7 @@
 x=0
 # Take a number & storing it in a variable.
 while x==0:
-    #Creating aloop which makes the statement on line 3 true
-    print('This loop will never end')
+    #Creating aloop which makes the statement
+    # on line 3 true
+    print('my name is ijaz')
     #The message that prints in the loop
